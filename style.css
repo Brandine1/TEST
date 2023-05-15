@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #e4e5ea;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 46px 0;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 15%;
+}
+
+.nav {
+  display: flex;
+  font-weight: 500;
+}
+
+.nav__link {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #e4e5ea;
+  opacity: 0.75;
+  transition: opacity 0.1s linear;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:hover {
+  opacity: 1;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+}
+
+.buttons__number {
+  color: #e4e5ea;
+  padding-left: 50px;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.1s linear;
+}
+
+.buttons__number:hover {
+  opacity: 1;
+}
+
+.buttons__link {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #e4e5ea;
+  opacity: 0.75;
+  transition: opacity 0.1s linear;
+}
+
+.buttons__link:hover {
+  opacity: 1;
+}
+
+.title {
+  padding-top: 10px;
+  text-align: left;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* INTRO */
+.intro {
+  height: 980px;
+  background: #0e1014 url("img/Desktop.jpg") center no-repeat;
+  background-size: cover;
+}
